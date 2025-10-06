@@ -1,0 +1,44 @@
+{
+  "name": "billing-api-backend-tools-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "billing",
+    "payment",
+    "invoicing",
+    "automation",
+    "finance",
+    "workflow",
+    "mastra",
+    "backend",
+    "tools",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A Billing API Backend Tools Agent for managing billing operations, invoices, payments, and customer billing data using Mastra.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.24",
+    "@mastra/core": "^0.13.1",
+    "axios": "^1.11.0",
+    "zod": "^3.25.76",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/uuid": "^9.0.7",
+    "mastra": "^0.10.20",
+    "typescript": "^5.9.2"
+  }
+}
